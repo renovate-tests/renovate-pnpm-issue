@@ -1,0 +1,20 @@
+dependencies:
+  lodash: 4.17.20
+devDependencies:
+  pnpm: 5.15.1
+lockfileVersion: 5.2
+packages:
+  /lodash/4.17.20:
+    dev: false
+    resolution:
+      integrity: sha512-PlhdFcillOINfeV7Ni6oF1TAEayyZBoZ8bcshTHqOYJYlrqzRK5hagpagky5o4HfCzzd1TRkXPMFq6cKk9rGmA==
+  /pnpm/5.15.1:
+    dev: true
+    engines:
+      node: '>=10.16'
+    hasBin: true
+    resolution:
+      integrity: sha512-QCGLm5Vxp97QDgYLqDF93CzQoryX3TXwEz3fc86b5CfU31Xq3u3mV8lAQTKbZOLJfAh3wZpz61KsWIpFW/3QAQ==
+specifiers:
+  lodash: ^4.17.20
+  pnpm: ^5.15.1
