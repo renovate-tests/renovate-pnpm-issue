@@ -20,6 +20,6 @@
     "pnpm": "^5.15.1"
   },
   "dependencies": {
-    "lodash": "^4.17.20"
+    "lodash": "3"
   }
 }
