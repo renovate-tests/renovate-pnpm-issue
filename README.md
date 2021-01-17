@@ -1,3 +1,3 @@
 # renovate-pnpm-issue
 
-see: renovatebot/renovate/issues/8323
+see: https://github.com/renovatebot/renovate/issues/8323
