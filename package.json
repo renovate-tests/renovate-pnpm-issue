@@ -17,7 +17,7 @@
   },
   "homepage": "https://github.com/cyrus-za/renovate-pnpm-issue#readme",
   "devDependencies": {
-    "pnpm": "^5.15.1",
+    "pnpm": "6.2.1",
     "@types/node": "^14.12"
   },
   "dependencies": {
