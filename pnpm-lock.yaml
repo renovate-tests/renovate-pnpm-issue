@@ -1,26 +1,29 @@
-dependencies:
-  lodash: 4.17.20
-devDependencies:
-  '@types/node': 14.14.22
-  pnpm: 5.15.3
-lockfileVersion: 5.2
-packages:
-  /@types/node/14.14.22:
-    dev: true
-    resolution:
-      integrity: sha512-g+f/qj/cNcqKkc3tFqlXOYjrmZA+jNBiDzbP3kH+B+otKFqAdPgVTGP1IeKRdMml/aE69as5S4FqtxAbl+LaMw==
-  /lodash/4.17.20:
-    dev: false
-    resolution:
-      integrity: sha512-PlhdFcillOINfeV7Ni6oF1TAEayyZBoZ8bcshTHqOYJYlrqzRK5hagpagky5o4HfCzzd1TRkXPMFq6cKk9rGmA==
-  /pnpm/5.15.3:
-    dev: true
-    engines:
-      node: '>=10.16'
-    hasBin: true
-    resolution:
-      integrity: sha512-3E53AIFukQA8OAgYcIb7dGN5+MA0GfNK8nMJwuT6sDnLC/bUs9uUSc+CaHKxZ34SIx/K5bH7gc6Q1kg2R/AiVg==
+lockfileVersion: 5.3
+
 specifiers:
   '@types/node': ^14.12
   lodash: ^4
-  pnpm: ^5.15.1
+  pnpm: 6.2.1
+
+dependencies:
+  lodash: 4.17.20
+
+devDependencies:
+  '@types/node': 14.14.22
+  pnpm: 6.2.1
+
+packages:
+
+  /@types/node/14.14.22:
+    resolution: {integrity: sha512-g+f/qj/cNcqKkc3tFqlXOYjrmZA+jNBiDzbP3kH+B+otKFqAdPgVTGP1IeKRdMml/aE69as5S4FqtxAbl+LaMw==}
+    dev: true
+
+  /lodash/4.17.20:
+    resolution: {integrity: sha512-PlhdFcillOINfeV7Ni6oF1TAEayyZBoZ8bcshTHqOYJYlrqzRK5hagpagky5o4HfCzzd1TRkXPMFq6cKk9rGmA==}
+    dev: false
+
+  /pnpm/6.2.1:
+    resolution: {integrity: sha512-aSrlGL3703pXhMaxFpFLAFakvpla0PaGN2/zOh5oG2qbvJ+jKuGkpHPhpLyAnhs/z+Je3wBaYA7vETu1f1xwqQ==}
+    engines: {node: '>=12.17'}
+    hasBin: true
+    dev: true
